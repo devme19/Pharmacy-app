@@ -1,0 +1,1 @@
+enum Filter { ALL, PENDING, DELIVERED}

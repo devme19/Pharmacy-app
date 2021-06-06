@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8fd7b96-6c86-4bf8-ab43-b1f08fb151c8" name="Default Changelist" comment="fix bugs">
+      <change afterPath="$PROJECT_DIR$/lib/data/datasources/remote/client.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/dio_connectivity_request_retrier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/interceptors/refresh_token_interceptor.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/interceptors/retry_on_connection_change_interceptor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/_composite.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_bundle_release_android-arm.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_bundle_release_android-arm64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_bundle_release_android-x64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_release_android-arm.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_release_android-arm64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/android_aot_release_android-x64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/aot_android_asset_bundle.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/arm64-v8a/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/armeabi-v7a/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/0034e2baeb5baa3ebd0436309889d032/x86_64/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/_composite.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_bundle_release_android-arm.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_bundle_release_android-arm64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_bundle_release_android-x64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_release_android-arm.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_release_android-arm64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/android_aot_release_android-x64.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/aot_android_asset_bundle.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/arm64-v8a/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/armeabi-v7a/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/8fce23659b40d00b5fe9c62dfc85c811/x86_64/app.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/debug_android_application.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/cf20a207ff37a72bb3c4fcebc5040609/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/debug_android_application.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/e8bcc2caa0bdb915c9954c6cc2fc54ac/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/usecase/usecase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/usecase/usecase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/datasources/remote/navid_app_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/datasources/remote/navid_app_remote_data_source.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/repository/navid_app_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/repository/navid_app_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/order/get_drug_by_barcode_use_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/usecases/order/get_drug_by_barcode_use_case.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/order/get_drugs_usecase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/usecases/order/get_drugs_usecase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/order/get_orders_use_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/usecases/order/get_orders_use_case.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/usecases/setting/set_font_size_use_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/usecases/setting/set_font_size_use_case.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/change_password_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/change_password_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/contact_us_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/contact_us_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/history_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/history_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/identity_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/identity_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/prescription_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/prescription_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/register_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/register_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/reset_password_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/reset_password_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/setting_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/setting_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/change_password_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/change_password_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/contact_us_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/contact_us_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/login_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/login_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/register_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/register_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/reset_password_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/reset_password_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[mvugfmvwrghysotw]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Concept" />
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ndtKtQYmuvptZTK7lXNauI6GAY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/lib/presentation/pages/widget/medicine_widget.dart" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/data/interceptors" />
+      <recent name="$PROJECT_DIR$/lib/presentation/temp" />
+      <recent name="$PROJECT_DIR$/lib/domain/usecases/user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset/font" />
+      <recent name="$PROJECT_DIR$/asset/images" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res" />
+      <recent name="$PROJECT_DIR$/lib/utils" />
+      <recent name="$PROJECT_DIR$/lib/presentation/pages/widget" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8fd7b96-6c86-4bf8-ab43-b1f08fb151c8" name="Default Changelist" comment="" />
+      <created>1611731735077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611731735077</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- add repeat history">
+      <created>1611733460923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611733460923</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- add dependent&#10;- show my dependents">
+      <created>1611759859403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611759859403</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- update user&#10;- update dependent&#10;- add dependent&#10;- list all dependents">
+      <created>1612018551262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612018551263</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- update user&#10;- update dependent&#10;- add dependent&#10;- list all dependents">
+      <created>1612073092677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612073092677</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- update user&#10;- update dependent&#10;- add dependent&#10;- list all dependents">
+      <created>1612103970223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612103970223</updated>
+    </task>
+    <task id="LOCAL-00006" summary="history, detail order,update order">
+      <created>1612191825218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612191825218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="history, detail order,update order">
+      <created>1612363587084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612363587084</updated>
+    </task>
+    <task id="LOCAL-00008" summary="history, detail order,update order">
+      <created>1612622303761</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612622303761</updated>
+    </task>
+    <task id="LOCAL-00009" summary="set theme">
+      <created>1612881487526</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612881487526</updated>
+    </task>
+    <task id="LOCAL-00010" summary="set theme">
+      <created>1613314408505</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613314408505</updated>
+    </task>
+    <task id="LOCAL-00011" summary="set theme">
+      <created>1613485609471</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613485609471</updated>
+    </task>
+    <task id="LOCAL-00012" summary="set theme">
+      <created>1613578330733</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613578330733</updated>
+    </task>
+    <task id="LOCAL-00013" summary="set theme">
+      <created>1613815696410</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613815696410</updated>
+    </task>
+    <task id="LOCAL-00014" summary="set theme">
+      <created>1613817015972</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613817015972</updated>
+    </task>
+    <task id="LOCAL-00015" summary="set theme">
+      <created>1613976625014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613976625014</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix bugs">
+      <created>1619606948330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619606948330</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix bugs">
+      <created>1619611264348</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619611264348</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix bugs">
+      <created>1619614835884</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1619614835884</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix bugs">
+      <created>1622717712512</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622717712512</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- add repeat history" />
+    <MESSAGE value="- add dependent&#10;- show my dependents" />
+    <MESSAGE value="- update user&#10;- update dependent&#10;- add dependent&#10;- list all dependents" />
+    <MESSAGE value="history, detail order,update order" />
+    <MESSAGE value="set theme" />
+    <MESSAGE value="fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="486" y="112" width="1000" height="890" key="#Plugins" timestamp="1615197910906">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="486" y="112" width="1000" height="890" key="#Plugins/62.27.1858.1053@62.27.1858.1053" timestamp="1615197910906" />
+    <state x="445" y="204" width="1201" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615197960957">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="445" y="204" width="1201" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1615197960957" />
+    <state x="553" y="152" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1622945318615">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="752" y="205" width="468" height="704" key="#com.intellij.ide.util.MemberChooser/62.27.1858.1053@62.27.1858.1053" timestamp="1615293712484" />
+    <state x="553" y="152" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1622945318615" />
+    <state x="452" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622932768461">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1622932768461" />
+    <state x="162" y="127" width="1658" height="853" key="AVDManager" timestamp="1619609587210">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="162" y="127" width="1658" height="853" key="AVDManager/62.27.1858.1053@62.27.1858.1053" timestamp="1619609587210" />
+    <state x="733" y="283" width="516" height="548" key="AndroidProcessChooserDialog" timestamp="1615287443444">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="733" y="283" width="516" height="548" key="AndroidProcessChooserDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1615287443444" />
+    <state width="747" height="384" key="DebuggerActiveHint" timestamp="1622942849846">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1072" height="545" key="DebuggerActiveHint/62.27.1858.1053@62.27.1858.1053" timestamp="1622717062869" />
+    <state width="747" height="384" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1622942849846" />
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl" timestamp="1622919340753">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="721" y="254" width="541" height="605" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1619603292117" />
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1622919340753" />
+    <state width="1250" height="94" key="GridCell.Tab.0.bottom" timestamp="1622946588824">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1802" height="155" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1622720764650" />
+    <state width="1250" height="94" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1622946588824" />
+    <state width="1250" height="94" key="GridCell.Tab.0.center" timestamp="1622946588822">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1802" height="155" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1622720764650" />
+    <state width="1250" height="94" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1622946588822" />
+    <state width="1250" height="94" key="GridCell.Tab.0.left" timestamp="1622946588820">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1802" height="155" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1622720764649" />
+    <state width="1250" height="94" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1622946588820" />
+    <state width="1250" height="94" key="GridCell.Tab.0.right" timestamp="1622946588823">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1802" height="155" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1622720764650" />
+    <state width="1250" height="94" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1622946588823" />
+    <state x="289" y="31" width="1067" height="737" key="SettingsEditor" timestamp="1622940339847">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="375" y="72" width="1545" height="912" key="SettingsEditor/62.27.1858.1053@62.27.1858.1053" timestamp="1619608789153" />
+    <state x="289" y="31" width="1067" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1622940339847" />
+    <state width="647" height="371" key="XDebugger.FullValuePopup" timestamp="1622934759539">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="929" height="526" key="XDebugger.FullValuePopup/62.27.1858.1053@62.27.1858.1053" timestamp="1622716919859" />
+    <state width="647" height="371" key="XDebugger.FullValuePopup/72.27.1294.741@72.27.1294.741" timestamp="1622934759539" />
+    <state x="373" y="223" width="1226" height="668" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619596254053">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="373" y="223" width="1226" height="668" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.27.1858.1053@62.27.1858.1053" timestamp="1619596254053" />
+    <state x="203" y="174" width="781" height="502" key="find.popup" timestamp="1622928352643">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="250" y="236" width="1120" height="706" key="find.popup/62.27.1858.1053@62.27.1858.1053" timestamp="1619605145616" />
+    <state x="203" y="174" width="781" height="502" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1622928352643" />
+    <state x="570" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1619611899173">
+      <screen x="62" y="27" width="1858" height="1053" />
+    </state>
+    <state x="570" y="44" width="840" height="1034" key="search.everywhere.popup/62.27.1858.1053@62.27.1858.1053" timestamp="1619611899173" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/datasources/local/navid_app_local_data_source.dart</url>
+          <line>121</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart</url>
+          <line>99</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart</url>
+          <line>93</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>117</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart</url>
+          <line>52</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/register_controller.dart</url>
+          <line>37</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/home_controller.dart</url>
+          <line>21</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart</url>
+          <line>23</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/history_controller.dart</url>
+          <line>22</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/home_controller.dart</url>
+          <line>59</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/detail_order_page.dart</url>
+          <line>148</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>144</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart</url>
+          <line>63</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart</url>
+          <line>66</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>113</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>114</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart</url>
+          <line>104</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/register_controller.dart</url>
+          <line>36</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>47</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/splash_controller.dart</url>
+          <line>15</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/dashboard_page.dart</url>
+          <line>24</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/home_controller.dart</url>
+          <line>33</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>318</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/splash_controller.dart</url>
+          <line>20</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/init_controller.dart</url>
+          <line>9</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>323</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>319</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>324</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>320</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart</url>
+          <line>98</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart</url>
+          <line>96</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/prescription_controller.dart</url>
+          <line>182</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/prescription_controller.dart</url>
+          <line>186</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/detail_order_page.dart</url>
+          <line>128</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/history_page.dart</url>
+          <line>42</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/history_page.dart</url>
+          <line>185</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/pages/history_page.dart</url>
+          <line>182</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>248</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/presentation/controllers/prescription_controller.dart</url>
+          <line>67</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>207</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/core/error/failures.dart</url>
+          <line>14</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>208</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>101</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart</url>
+          <line>102</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/core/error/exceptions.dart</url>
+          <line>14</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/datasources/remote/client.dart</url>
+          <line>29</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/data/dio_connectivity_request_retrier.dart</url>
+          <line>15</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
