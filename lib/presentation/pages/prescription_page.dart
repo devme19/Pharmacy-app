@@ -756,11 +756,11 @@ class PrescriptionPage extends GetView<PrescriptionController>{
                                           controller.addOrder(jsonMap,clearDescription);
 
                                         } else
-                                          MyAlertDialog.show(['Dear '+controller.accounts[selectedIndex].name+' complete your profile to place an order'], true,_getAccounts);
+                                          MyAlertDialog.show(['Dear '+controller.accounts[selectedIndex].name+' complete your profile to place an order'], true,_getAccounts,controller.accounts[selectedIndex].id);
                                 }
                                 else
                                 {
-                                  MyAlertDialog.show(["Enter at least one order"], true,null);
+                                  MyAlertDialog.show(["Enter at least one order"], true,null,null);
                                 }
                               },
                               child: Container(margin:EdgeInsets.only(top:20,bottom: 20),child:

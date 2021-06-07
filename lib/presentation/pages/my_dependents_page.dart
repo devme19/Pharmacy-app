@@ -81,7 +81,36 @@ class MyDependentsPage extends GetView<DependentsController>{
               'asset/images/other.png':''
           )),
         ),
-        trailing: Icon(Icons.more_horiz),
+        trailing:(controller.deleteDependentsState.value == StateStatus.LOADING &&
+        dep.id.toString() == controller.deletedUserId)?
+        Container(
+          width: 60,
+          height: 60,
+          child: Center(
+            child: SpinKitDualRing(
+              color: Colors.blue,
+              lineWidth: 2,
+              size: 15,
+            ),
+          ),
+        ):InkWell(
+          onTap: (){
+            Get.defaultDialog(
+              content: Text('Are you sure to delete?'),
+              textConfirm: 'Yes',
+              textCancel: 'Cancel',
+              buttonColor: Colors.white,
+              onConfirm: (){
+                controller.deleteDependent(dep.id.toString());
+                Get.back();
+              },
+            );
+          },
+            child: Container(
+              width: 60,
+                height: 60,
+                // color: Colors.blue,
+                child: Icon(Icons.delete,color: Colors.red,))),
         onTap: ()=>getUser(dep.id),
         title: Text(dep.name+" "+dep.family,style: TextStyle(fontWeight: FontWeight.bold),),
         subtitle: Text(dep.phone!=null?dep.phone:'',style: TextStyle(color: Colors.grey),),
@@ -152,7 +181,7 @@ class MyDependentsPage extends GetView<DependentsController>{
       ),
       body:
       Obx(()=>
-      controller.getDependentsState.value == StateStatus.SUCCESS?
+      (controller.getDependentsState.value == StateStatus.SUCCESS||controller.listLength>-1)?
       Padding(
         padding: const EdgeInsets.all(8.0),
         child: createList(controller.myDependents),

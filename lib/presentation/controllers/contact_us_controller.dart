@@ -15,7 +15,7 @@ class ContactUsController extends GetxController{
     contactUsUseCase.call(Params(body: body)).then((response) {
       if(response.isRight){
         sendStatus.value = StateStatus.SUCCESS;
-        MyAlertDialog.show(["Message sent"], true,null);
+        MyAlertDialog.show(["Message sent"], true,null,null);
         done(true);
 
       }else if(response.isLeft){

@@ -16,7 +16,7 @@ class ChangePasswordController extends GetxController{
     changePasswordUseCase.call(Params(body: body)).then((response) {
       if(response.isRight){
         changePasswordState.value  = StateStatus.SUCCESS;
-        MyAlertDialog.show(["Password successfully changed"], true,null);
+        MyAlertDialog.show(["Password successfully changed"], true,null,null);
         done(true);
       }else if(response.isLeft){
         changePasswordState.value  = StateStatus.ERROR;

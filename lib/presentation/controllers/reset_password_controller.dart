@@ -13,7 +13,7 @@ class ResetPasswordController extends GetxController{
     resetPasswordUseCase.call(Params(body: body)).then((response) {
       if(response.isRight){
         resetPasswordState.value = StateStatus.SUCCESS;
-        MyAlertDialog.show(["Password reset link sent to email"], true,null);
+        MyAlertDialog.show(["Password reset link sent to email"], true,null,null);
       }else if(response.isLeft){
         resetPasswordState.value = StateStatus.ERROR;
         errorAction(response.left);

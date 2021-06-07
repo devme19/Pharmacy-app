@@ -5,7 +5,7 @@ import 'package:navid_app/presentation/pages/widget/alert_dialog.dart';
 import 'package:get/get.dart';
 
 errorAction(ServerFailure failure){
-  MyAlertDialog.show(failure.errorMessage, true,null);
+  MyAlertDialog.show(failure.errorMessage, true,null,null);
 }
 class Item{
   String title;

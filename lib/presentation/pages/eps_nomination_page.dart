@@ -5,6 +5,7 @@ import 'package:circular_check_box/circular_check_box.dart';
 import 'package:date_time_picker/date_time_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:gender_picker/source/enums.dart';
 import 'package:gender_picker/source/gender_picker.dart';
 import 'package:get/get.dart';
@@ -125,7 +126,9 @@ class EpsNominationPage extends StatelessWidget{
         Form(
           key: _formKey,
           child:
-          Obx(()=>
+          Obx(()=> (userController.getUserInfoState.value == StateStatus.LOADING ||
+              userController.getDependentState.value == StateStatus.LOADING)?
+          SpinKitDualRing(color: Colors.blue,lineWidth: 2,):
           buildView(context))
         )
     );
@@ -949,7 +952,7 @@ class EpsNominationPage extends StatelessWidget{
                             validation.add("Select gender");
                           if (epsNominationController.mBirthDate.value == "")
                             validation.add("Select date of birth");
-                          MyAlertDialog.show(validation, false,null);
+                          MyAlertDialog.show(validation, false,null,null);
                           _formKey.currentState.validate();
                         }
                         else

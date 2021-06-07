@@ -241,7 +241,15 @@ class NavidAppRepositoryImpl implements NavidAppRepository{
       return Left(ServerFailure(errorCode: e.errorCode,errorMessage: e.errorMessage));
     }
   }
-
+  @override
+  Future<Either<Failure, bool>> deleteDependent(String id) async{
+    try{
+      final response = await remoteDataSource.get<bool,Null>("destroyFamily/$id");
+      return Right(response);
+    }on ServerException catch(e){
+      return Left(ServerFailure(errorCode: e.errorCode,errorMessage: e.errorMessage));
+    }
+  }
   @override
   Future<Either<Failure, DependentsEntity>> getAccounts() async{
     try{
@@ -327,6 +335,8 @@ class NavidAppRepositoryImpl implements NavidAppRepository{
       return Left(ServerFailure(errorCode: e.errorCode,errorMessage: e.errorMessage));
     }
   }
+
+
 
 
 

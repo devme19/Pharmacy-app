@@ -20,6 +20,7 @@ abstract class NavidAppRepository{
   Future<Either<Failure,IdentityEntity>> login(Map body);
   Future<Either<Failure,IdentityEntity>> register(Map body);
   Future<Either<Failure,bool>> logOut();
+  Future<Either<Failure,bool>> deleteDependent(String id);
   Future<Either<Failure,bool>> changePassword(Map body);
   Future<Either<Failure,bool>> resetPassword(Map body);
   Future<Either<Failure,NonPaymentEntity>> getReason();

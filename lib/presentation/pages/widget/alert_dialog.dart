@@ -5,7 +5,7 @@ import 'package:navid_app/core/config/config.dart';
 import 'package:navid_app/presentation/navigation/navid_app.dart';
 class MyAlertDialog {
 
-  static void show(List<String> titles,bool isAlert,ValueChanged<bool> parentAction){
+  static void show(List<String> titles,bool isAlert,ValueChanged<bool> parentAction,int id){
     Get.defaultDialog(
         confirm:
         Padding(
@@ -16,7 +16,7 @@ class MyAlertDialog {
               Text('ok'.tr,textAlign: TextAlign.center,style: TextStyle(color: Colors.white),),onPressed: (){
                 Get.back();
                 if(titles[0].contains('Dear')==true)
-                  Get.toNamed(NavidAppRoutes.epsNominationPage).then((value) {
+                  Get.toNamed(NavidAppRoutes.epsNominationPage,arguments: id).then((value) {
                     parentAction(true);
                   });
 

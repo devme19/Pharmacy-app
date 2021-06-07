@@ -31,13 +31,14 @@ class NavidAppRemoteDatasourceImpl implements NavidAppRemoteDataSource{
   @override
   Future<T> post<T, K>(Map body, String url) async{
     // TODO: implement post
-        Response response = await Client.dio.post(url,data: body);
-        if(response.statusCode == 200)
-        {
-          if(T == bool)
-            return true as T;
-          return Generics.fromJson<T,K>(response.data);
-        }
+    try{
+      Response response = await Client.dio.post(url, data: body);
+      if (response.statusCode == 200) {
+        if (T == bool) return true as T;
+        return Generics.fromJson<T, K>(response.data);
+      }
+    } on DioError catch(e){
+      throw ServerException(e.response.statusCode, url);}
   }
 
 }

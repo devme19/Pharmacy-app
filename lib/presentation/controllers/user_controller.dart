@@ -26,6 +26,7 @@ class UserController extends GetxController{
 
   RxList myDependents = [].obs;
   var getDependentsState = StateStatus.INITIAL.obs;
+  var getUserInfoState = StateStatus.INITIAL.obs;
   var addDependentState = StateStatus.INITIAL.obs;
   var updateUserState = StateStatus.INITIAL.obs;
   var getDependentState = StateStatus.INITIAL.obs;
@@ -51,14 +52,16 @@ class UserController extends GetxController{
     });
   }
   getUserInfo(ValueChanged<UserEntity> parentAction){
+    getUserInfoState.value = StateStatus.LOADING;
     GetUserInfoUseCase getUserInfoUseCase =Get.find();
     getUserInfoUseCase.call(NoParams()).then((response) {
       if(response.isRight){
+        getUserInfoState.value = StateStatus.SUCCESS;
         userInfo.value = response.right;
         if(parentAction != null)
           parentAction(userInfo.value);
       }else if(response.isLeft){
-
+        getUserInfoState.value = StateStatus.ERROR;
       }
     });
   }
