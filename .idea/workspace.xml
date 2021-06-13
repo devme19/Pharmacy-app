@@ -14,29 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fd7b96-6c86-4bf8-ab43-b1f08fb151c8" name="Default Changelist" comment="fix bugs">
-      <change afterPath="$PROJECT_DIR$/lib/domain/usecases/user/delete_dependent_use_case.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/debug_android_application.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/datasources/remote/navid_app_remote_data_source.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/datasources/remote/navid_app_remote_data_source.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/repository/navid_app_repository_impl.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/domain/repository/navid_app_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/repository/navid_app_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/change_password_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/change_password_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/contact_us_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/contact_us_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/dependents_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/dependents_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/reset_password_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/reset_password_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/controllers/user_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/bindings/my_dependents_binding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/bindings/my_dependents_binding.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/my_dependents_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/my_dependents_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/prescription_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/widget/alert_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/widget/alert_dialog.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/helper.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../talab/wetlands" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -293,11 +274,11 @@
     </state>
     <state width="1072" height="545" key="DebuggerActiveHint/62.27.1858.1053@62.27.1858.1053" timestamp="1622717062869" />
     <state width="747" height="384" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1623083054677" />
-    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl" timestamp="1622919340753">
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl" timestamp="1623505190979">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="721" y="254" width="541" height="605" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1619603292117" />
-    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1622919340753" />
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1623505190979" />
     <state width="1250" height="166" key="GridCell.Tab.0.bottom" timestamp="1623085224018">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

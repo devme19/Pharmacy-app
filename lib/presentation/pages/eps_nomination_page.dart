@@ -735,7 +735,7 @@ class EpsNominationPage extends StatelessWidget{
                                       CircularCheckBox(value: true, onChanged: (check){}),
                                       Expanded(
                                         child: Text(
-                                          "I agree to nominate Newport pharmacy nomination. to receive and deliver my prescriptions.",
+                                          "I authorize Newport Pharmacy to access my summary care record when required, to safely dispense my medication.",
                                         ),
                                       ),
                                     ],
