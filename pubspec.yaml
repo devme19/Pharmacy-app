@@ -39,7 +39,6 @@ dependencies:
   permission_handler: ^5.0.1+1
   animated_text_kit: ^3.1.2
   url_launcher: ^5.7.10
-  date_time_picker: ^1.1.1
   maps_launcher: ^1.2.2+2
   dio: ^3.0.10
   connectivity: ^0.4.9

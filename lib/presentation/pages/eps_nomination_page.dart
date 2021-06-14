@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:circular_check_box/circular_check_box.dart';
-import 'package:date_time_picker/date_time_picker.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -18,7 +18,6 @@ import 'package:navid_app/presentation/pages/widget/alert_dialog.dart';
 import 'package:navid_app/presentation/pages/widget/pay_widget.dart';
 import 'package:navid_app/utils/state_status.dart';
 import 'package:roundcheckbox/roundcheckbox.dart';
-import 'package:intl/intl.dart';
 
 import 'widget/my_check_box.dart';
 class EpsNominationPage extends StatelessWidget{
@@ -497,26 +496,7 @@ class EpsNominationPage extends StatelessWidget{
               child:
               InkWell(
                 onTap: (){
-                  // DatePicker.showDatePicker(
-                  //     context,
-                  //     showTitleActions: true,
-                  //     minTime: DateTime(1800, 1, 1),
-                  //     maxTime: DateTime(2050, 1, 1),
-                  //     theme: DatePickerTheme(
-                  //         headerColor:Get.theme.primaryColor,
-                  //         backgroundColor: Get.theme.scaffoldBackgroundColor,
-                  //         itemStyle: TextStyle(
-                  //             color: Colors.blueGrey, fontWeight: FontWeight.bold, fontSize: 18),
-                  //         doneStyle: TextStyle(color: Colors.white, fontSize: 16)),
-                  //
-                  //     onChanged: (date) {
-                  //       print('change $date in time zone ' + date.timeZoneOffset.inHours.toString());
-                  //     }, onConfirm: (date) {
-                  //       epsNominationController.onBirthDateConfirm(date);
-                  //       print('confirm $date');
-                  //     },
-                  //     currentTime: DateTime.now(), locale: LocaleType.en);
-                  _selectDate(context);
+                  _selectDate();
                 },
                 child: Container(
                   child: Padding(
@@ -1023,33 +1003,57 @@ class EpsNominationPage extends StatelessWidget{
     epsNominationController.visibleAlert.value = false;
     Get.back();
   }
-  Future<void> _selectDate(BuildContext context)async{
-    DateTime picked = await showDatePicker(
-        context: context,
-        // locale:Locale('ps'),
-        initialDate: epsNominationController.selectedDate.value,
-        firstDate: DateTime(1820, 8),
-        lastDate: DateTime(2101));
-    // DateTimePicker(
-    //   type: DateTimePickerType.date,
-    //   initialValue: '',
-    //   dateMask: 'd MMM, yyyy',
-    //   firstDate: DateTime(2000),
-    //   lastDate: DateTime(2100),
-    //   dateLabelText: 'Date',
-    //   onChanged: (val) => print(val),
-    //   validator: (val) {
-    //     print(val);
-    //     return null;
-    //   },
-    //   onSaved: (val) {
-    //     // epsNominationController.setDate(val);
-    //     print(val);
-    //   },
-    // );
-    if (picked != null && picked != epsNominationController.selectedDate.value)
-      epsNominationController.setDate(picked);
+  _selectDate() async {
+    DateTime pickedDate = await showModalBottomSheet<DateTime>(
+      context: Get.context,
+      builder: (context) {
+        DateTime tempPickedDate;
+        return Container(
+          height: 250,
+          child: Column(
+            children: <Widget>[
+              Container(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    CupertinoButton(
+                      child: Text('Cancel'),
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                    ),
+                    CupertinoButton(
+                      child: Text('Done'),
+                      onPressed: () {
+                        Navigator.of(context).pop(tempPickedDate);
+                        epsNominationController.setDate(tempPickedDate);
+                      },
+                    ),
+                  ],
+                ),
+              ),
+              Divider(
+                height: 0,
+                thickness: 1,
+              ),
+              Expanded(
+                child: Container(
+                  child: CupertinoDatePicker(
 
+                    initialDateTime: epsNominationController.selectedDate.value!=null?epsNominationController.selectedDate.value:DateTime.now(),
+                    mode: CupertinoDatePickerMode.date,
+                    onDateTimeChanged: (DateTime dateTime) {
+                      tempPickedDate = dateTime;
+
+                    },
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
   }
 
 }
