@@ -14,17 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fd7b96-6c86-4bf8-ab43-b1f08fb151c8" name="Default Changelist" comment="fix bugs">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/pages/eps_nomination_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622717712512</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix bugs">
+      <created>1623660069442</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623660069442</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,25 +283,25 @@
     </state>
     <state x="721" y="254" width="541" height="605" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1619603292117" />
     <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1623505190979" />
-    <state width="1802" height="433" key="GridCell.Tab.0.bottom" timestamp="1623658423786">
+    <state width="1802" height="213" key="GridCell.Tab.0.bottom" timestamp="1623660078214">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1802" height="433" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1623658423786" />
+    <state width="1802" height="213" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
     <state width="1250" height="166" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1623085224018" />
-    <state width="1802" height="433" key="GridCell.Tab.0.center" timestamp="1623658423786">
+    <state width="1802" height="213" key="GridCell.Tab.0.center" timestamp="1623660078214">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1802" height="433" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1623658423786" />
+    <state width="1802" height="213" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
     <state width="1250" height="166" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
-    <state width="1802" height="433" key="GridCell.Tab.0.left" timestamp="1623658423785">
+    <state width="1802" height="213" key="GridCell.Tab.0.left" timestamp="1623660078214">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1802" height="433" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1623658423785" />
+    <state width="1802" height="213" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
     <state width="1250" height="166" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
-    <state width="1802" height="433" key="GridCell.Tab.0.right" timestamp="1623658423786">
+    <state width="1802" height="213" key="GridCell.Tab.0.right" timestamp="1623660078214">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
-    <state width="1802" height="433" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1623658423786" />
+    <state width="1802" height="213" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
     <state width="1250" height="166" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
     <state x="289" y="31" width="1067" height="737" key="SettingsEditor" timestamp="1622947742575">
       <screen x="72" y="27" width="1294" height="741" />

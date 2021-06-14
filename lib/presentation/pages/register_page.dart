@@ -283,7 +283,7 @@ class RegisterPage extends GetView<RegisterController>{
                                                   CircularCheckBox(value: true, onChanged: (check){}),
                                                   Expanded(
                                                     child: Text(
-                                                      "I agree to the terms and conditions and consent to the processing of my health data and being contacted regarding my prescriptions when required.",
+                                                      " I agree to the terms and conditions and consent to the processing of my health data and being contacted regarding my prescriptions when required.",
                                                     ),
                                                   ),
                                                 ],
@@ -294,7 +294,7 @@ class RegisterPage extends GetView<RegisterController>{
                                                   CircularCheckBox(value: true, onChanged: (check){}),
                                                   Expanded(
                                                     child: Text(
-                                                      "I agree to nominate Newport pharmacy nomination. to receive and deliver my prescriptions.",
+                                                      " I agree to nominate Newport pharmacy nomination, to receive and deliver my prescriptions.",
                                                     ),
                                                   ),
                                                 ],
@@ -305,7 +305,7 @@ class RegisterPage extends GetView<RegisterController>{
                                                   CircularCheckBox(value: true, onChanged: (check){}),
                                                   Expanded(
                                                     child: Text(
-                                                      "I agree to nominate Newport pharmacy nomination. to receive and deliver my prescriptions.",
+                                                      " I authorize Newport Pharmacy to access my summary care record when required, to safely dispense my medication.",
                                                     ),
                                                   ),
                                                 ],
