@@ -14,7 +14,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fd7b96-6c86-4bf8-ab43-b1f08fb151c8" name="Default Changelist" comment="fix bugs">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/.filecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/app.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/debug_android_application.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/flutter_assets.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/gen_localizations.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/kernel_snapshot.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6565edd130ce6fd917fd665f5926bb2d/outputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/config/config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/config/config.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,18 +264,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="486" y="112" width="1000" height="890" key="#Plugins" timestamp="1615197910906">
-      <screen x="62" y="27" width="1858" height="1053" />
-    </state>
-    <state x="486" y="112" width="1000" height="890" key="#Plugins/62.27.1858.1053@62.27.1858.1053" timestamp="1615197910906" />
-    <state x="445" y="204" width="1201" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615197960957">
-      <screen x="62" y="27" width="1858" height="1053" />
-    </state>
-    <state x="445" y="204" width="1201" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1615197960957" />
     <state x="553" y="152" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1623080159663">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="752" y="205" width="468" height="704" key="#com.intellij.ide.util.MemberChooser/62.27.1858.1053@62.27.1858.1053" timestamp="1615293712484" />
     <state x="553" y="152" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1623080159663" />
     <state x="452" y="147" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622932768461">
       <screen x="72" y="27" width="1294" height="741" />
@@ -269,45 +276,41 @@
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state x="162" y="127" width="1658" height="853" key="AVDManager/62.27.1858.1053@62.27.1858.1053" timestamp="1619609587210" />
-    <state x="733" y="283" width="516" height="548" key="AndroidProcessChooserDialog" timestamp="1615287443444">
-      <screen x="62" y="27" width="1858" height="1053" />
-    </state>
-    <state x="733" y="283" width="516" height="548" key="AndroidProcessChooserDialog/62.27.1858.1053@62.27.1858.1053" timestamp="1615287443444" />
     <state width="747" height="384" key="DebuggerActiveHint" timestamp="1623083054677">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1072" height="545" key="DebuggerActiveHint/62.27.1858.1053@62.27.1858.1053" timestamp="1622717062869" />
     <state width="747" height="384" key="DebuggerActiveHint/72.27.1294.741@72.27.1294.741" timestamp="1623083054677" />
-    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl" timestamp="1623505190979">
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl" timestamp="1625052693717">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="721" y="254" width="541" height="605" key="FileChooserDialogImpl/62.27.1858.1053@62.27.1858.1053" timestamp="1619603292117" />
-    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1623505190979" />
-    <state width="1802" height="213" key="GridCell.Tab.0.bottom" timestamp="1623660078214">
-      <screen x="62" y="27" width="1858" height="1053" />
+    <state x="531" y="187" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1625052693717" />
+    <state width="1250" height="166" key="GridCell.Tab.0.bottom" timestamp="1625049774206">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1802" height="213" key="GridCell.Tab.0.bottom/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
-    <state width="1250" height="166" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1623085224018" />
-    <state width="1802" height="213" key="GridCell.Tab.0.center" timestamp="1623660078214">
-      <screen x="62" y="27" width="1858" height="1053" />
+    <state width="1250" height="166" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1625049774206" />
+    <state width="1250" height="166" key="GridCell.Tab.0.center" timestamp="1625049774206">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1802" height="213" key="GridCell.Tab.0.center/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
-    <state width="1250" height="166" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
-    <state width="1802" height="213" key="GridCell.Tab.0.left" timestamp="1623660078214">
-      <screen x="62" y="27" width="1858" height="1053" />
+    <state width="1250" height="166" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1625049774206" />
+    <state width="1250" height="166" key="GridCell.Tab.0.left" timestamp="1625049774205">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1802" height="213" key="GridCell.Tab.0.left/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
-    <state width="1250" height="166" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
-    <state width="1802" height="213" key="GridCell.Tab.0.right" timestamp="1623660078214">
-      <screen x="62" y="27" width="1858" height="1053" />
+    <state width="1250" height="166" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1625049774205" />
+    <state width="1250" height="166" key="GridCell.Tab.0.right" timestamp="1625049774206">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="1802" height="213" key="GridCell.Tab.0.right/62.27.1858.1053@62.27.1858.1053" timestamp="1623660078214" />
-    <state width="1250" height="166" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1623085224017" />
-    <state x="289" y="31" width="1067" height="737" key="SettingsEditor" timestamp="1622947742575">
+    <state width="1250" height="166" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1625049774206" />
+    <state x="289" y="31" width="1067" height="737" key="SettingsEditor" timestamp="1625052695387">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="375" y="72" width="1545" height="912" key="SettingsEditor/62.27.1858.1053@62.27.1858.1053" timestamp="1619608789153" />
-    <state x="289" y="31" width="1067" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1622947742575" />
+    <state x="289" y="31" width="1067" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1625052695387" />
     <state width="647" height="371" key="XDebugger.FullValuePopup" timestamp="1622934759539">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -317,11 +320,11 @@
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
     <state x="373" y="223" width="1226" height="668" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.27.1858.1053@62.27.1858.1053" timestamp="1619596254053" />
-    <state x="203" y="174" width="781" height="502" key="find.popup" timestamp="1622928352643">
+    <state x="203" y="174" width="781" height="502" key="find.popup" timestamp="1625052582161">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="250" y="236" width="1120" height="706" key="find.popup/62.27.1858.1053@62.27.1858.1053" timestamp="1619605145616" />
-    <state x="203" y="174" width="781" height="502" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1622928352643" />
+    <state x="203" y="174" width="781" height="502" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1625052582161" />
     <state x="570" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1619611899173">
       <screen x="62" y="27" width="1858" height="1053" />
     </state>
